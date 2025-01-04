@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.headline {
+    background-color: rgb(134, 97, 53);
+    border: 2px solid black;
+    width: 100vw;
+    height: 90px;
+    text-align:center;
+    text-shadow: 12px 8px 5px rgba(220, 181, 11, 0.587);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+.blog {
+    background-color: rgb(185, 116, 38);
+    border: 10px solid rgb(93, 73, 60);
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px;
+    margin: 50px;
+    padding: 20px;
+    background-position: center;
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+}
+ul{
+    margin: 50px;
+}
+
+
+.blogs {
+    position: relative;
+    left: 110px;
+    display: inline-flex;
+}
+
+.box2{
+    margin: 20px;
+    border: 2px solid rgb(93, 73, 60);
+    border-radius: 15px;
+    height: 160px;
+    background-image: url('first.jpg');
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: sticky;
+    top: 0px;
+    box-shadow: 10px 10px 10px;
+}
+
+li {
+    margin-bottom: 6px;
+    background-color: bisque;
+    text-align: center;
+    width: 15%;
+    font-weight: bolder;
+    border: 2px solid ;
+    box-shadow: 7px 5px 5px;
+}
+
+#myname {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+
+
+
+#third_blog {
+    font-size: 90px;
+    text-align: center;
+    font-style: bold;
+}
+
+
+
+
+
+
+/* to hide a content we use these commands */
+/* display: none;
+    visibility: hidden; */
+
